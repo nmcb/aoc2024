@@ -8,7 +8,7 @@ lazy val root =
              ("org.scala-graph" %  "graph-core" % "2.0.2").cross(CrossVersion.for3Use2_13),
              ("org.scala-graph" %  "graph-dot"  % "2.0.0").cross(CrossVersion.for3Use2_13),
 
-             "org.scala-lang.modules" %% "scala-parallel-collections" % "1.0.4",
+             "org.scala-lang.modules" %% "scala-parallel-collections" % "1.1.0",
              "org.scalatest"          %% "scalatest"                  % "3.2.19" % "test"
     ))
 
